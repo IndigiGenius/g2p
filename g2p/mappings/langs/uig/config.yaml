@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Uighur Arabic
+    display_name: Uighur Arabic to IPA
+    in_lang: uig-arab
+    out_lang: uig-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: uig-Arab.csv
