@@ -1,0 +1,25 @@
+mappings:
+  - language_name: Tigrinya
+    display_name: Tigrinya to IPA
+    in_lang: tir-ethi
+    out_lang: tir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tir-Ethi.csv
+  - language_name: Tigrinya Phonemic
+    display_name: Tigrinya Phonemic to IPA
+    in_lang: tir-ethi-pp
+    out_lang: tir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tir-Ethi-pp.csv
+  - language_name: Tigrinya Reduced
+    display_name: Tigrinya Reduced to IPA
+    in_lang: tir-ethi-red
+    out_lang: tir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tir-Ethi-red.csv
