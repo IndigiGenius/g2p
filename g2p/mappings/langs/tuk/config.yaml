@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Turkmen Cyrillic
+    display_name: Turkmen Cyrillic to IPA
+    in_lang: tuk-cyrl
+    out_lang: tuk-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tuk-Cyrl.csv
+  - language_name: Turkmen Latin
+    display_name: Turkmen Latin to IPA
+    in_lang: tuk-latn
+    out_lang: tuk-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tuk-Latn.csv
