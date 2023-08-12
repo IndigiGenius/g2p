@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Yoruba
+    display_name: Yoruba to IPA
+    in_lang: yor
+    out_lang: yor-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: yor-Latn.csv
