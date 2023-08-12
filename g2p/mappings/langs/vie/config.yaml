@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Vietnamese
+    display_name: Vietnamese to IPA
+    in_lang: vie
+    out_lang: vie-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: vie-Latn.csv
