@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Czech
+    display_name: Czech to IPA
+    in_lang: ces
+    out_lang: ces-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ces-Latn.csv
