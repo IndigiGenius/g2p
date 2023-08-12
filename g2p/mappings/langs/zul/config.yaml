@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Zulu 
+    display_name: Zulu to IPA
+    in_lang: zul
+    out_lang: zul-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: zul-Latn.csv
