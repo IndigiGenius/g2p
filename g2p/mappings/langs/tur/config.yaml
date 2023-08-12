@@ -1,0 +1,33 @@
+mappings:
+  - language_name: Turkish Latin
+    display_name: Turkish Latin to IPA
+    in_lang: tur-latn
+    out_lang: tur-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tur-Latn.csv
+  - language_name: Turkish Latin-Babel
+    display_name: Turkish Latin-babel to IPA
+    in_lang: tur-latn-bab
+    out_lang: tur-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tur-Latn-bab.csv
+  - language_name: Turkish Latin Reduced
+    display_name: Turkish Latin Reduced to IPA
+    in_lang: tur-latn-red
+    out_lang: tur-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tur-Latn-red.csv
+  - language_name: Turkish Latin No Suffix
+    display_name: Turkish Latin No Suffix to IPA
+    in_lang: tur-latn-nosuf
+    out_lang: tur-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tur-Latn-nosuf.csv
