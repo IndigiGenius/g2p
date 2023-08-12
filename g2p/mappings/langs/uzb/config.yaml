@@ -1,16 +1,16 @@
 mappings:
-  - language_name: Uzbek
-    display_name: Uzbek to IPA
-    in_lang: uzb
+  - language_name: Uzbek Latin
+    display_name: Uzbek Latin to IPA
+    in_lang: uzb-latn
     out_lang: uzb-ipa
     type: mapping
     authors:
       - David R. Mortensen
     mapping: uzb-Latn.csv
-  - language_name: Uzbek
-    display_name: Uzbek to Cyrillic
-    in_lang: uzb
-    out_lang: uzb-cyrillic
+  - language_name: Uzbek Cyrillic
+    display_name: Uzbek Cyrillic to IPA
+    in_lang: uzb-cyrl
+    out_lang: uzb-ipa
     type: mapping
     authors:
       - David R. Mortensen
