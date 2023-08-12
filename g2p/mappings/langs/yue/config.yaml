@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Yue Chinese 
+    display_name: Yue Chinese to IPA
+    in_lang: yue
+    out_lang: yue-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: yue-Latn.csv
