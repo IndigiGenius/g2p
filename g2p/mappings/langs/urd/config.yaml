@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Urdu Arabic
+    display_name: Urdu Arabic to IPA
+    in_lang: urd-arab
+    out_lang: urd-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: urd-Arab.csv
