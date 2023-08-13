@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Farsi
+    display_name: Farsi to IPA
+    in_lang: fas
+    out_lang: fas-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: fas-Arab.csv
