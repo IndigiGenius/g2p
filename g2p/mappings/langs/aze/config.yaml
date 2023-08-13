@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Azerbaijani
+    display_name: Azerbaijani (Latin) to IPA
+    in_lang: aze-latn
+    out_lang: aze-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: aze-Latn.csv
+  - language_name: Azerbaijani
+    display_name: Azerbaijani (Cyrillic) to IPA
+    in_lang: aze-cyrl
+    out_lang: aze-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: aze-Cyrl.csv
