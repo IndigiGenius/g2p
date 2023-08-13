@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Marathi
+    display_name: Marathi to IPA
+    in_lang: mar
+    out_lang: mar-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: mar-Deva.csv
