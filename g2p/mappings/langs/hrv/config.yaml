@@ -1,9 +1,9 @@
 mappings:
-  - language_name: Xhosa
-    display_name: Xhosa to IPA
-    in_lang: xho
-    out_lang: xho-ipa
+  - language_name: Hungarian
+    display_name: Hungarian to IPA
+    in_lang: hrv
+    out_lang: hrv-ipa
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: xho-Latn.csv
+    mapping: hrv-Latn.csv
