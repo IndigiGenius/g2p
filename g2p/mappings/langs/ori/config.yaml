@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Odia
+    display_name: Odia to IPA
+    in_lang: ori
+    out_lang: ori-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ori-Orya.csv
