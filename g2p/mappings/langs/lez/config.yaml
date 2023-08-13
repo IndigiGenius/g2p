@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Xhosa
+    display_name: Xhosa to IPA
+    in_lang: xho
+    out_lang: xho-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: xho-Latn.csv
