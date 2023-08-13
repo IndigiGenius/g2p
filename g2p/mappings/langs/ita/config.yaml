@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Italian
+    display_name: Italian to IPA
+    in_lang: ita
+    out_lang: ita-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ita-Latn.csv
