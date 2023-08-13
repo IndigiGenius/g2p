@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Kurmanji
+    display_name: Kurmanji to IPA
+    in_lang: kmr
+    out_lang: kmr-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kmr-Latn.csv
+  - language_name: Kurmanji
+    display_name: Kurmanji (reduced) to IPA
+    in_lang: kmr-red
+    out_lang: kmr-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kmr-Latn-red.csv
