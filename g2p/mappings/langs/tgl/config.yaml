@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Thai
+    display_name: Thai to IPA
+    in_lang: tha-Thai
+    out_lang: tha-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tha-Thai.csv
