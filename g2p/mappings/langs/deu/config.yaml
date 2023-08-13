@@ -1,0 +1,25 @@
+mappings:
+  - language_name: German
+    display_name: German to IPA
+    in_lang: deu
+    out_lang: deu-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: deu-Latn.csv
+  - language_name: German
+    display_name: German-np to IPA
+    in_lang: deu-np
+    out_lang: deu-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: deu-Latn-np.csv
+  - language_name: German
+    display_name: German (more phonetic) to IPA
+    in_lang: deu-nar
+    out_lang: deu-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: deu-Latn-nar.csv
