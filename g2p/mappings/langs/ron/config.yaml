@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Romanian
+    display_name: Romanian to IPA
+    in_lang: ron
+    out_lang: ron-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ron-Latn.csv
