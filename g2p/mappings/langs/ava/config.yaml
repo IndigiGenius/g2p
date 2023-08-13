@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Avaric
+    display_name: Avaric to IPA
+    in_lang: ava
+    out_lang: ava-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ava-Cyrl.csv
