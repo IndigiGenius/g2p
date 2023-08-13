@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Chichewa
+    display_name: Chichewa to IPA
+    in_lang: nya
+    out_lang: nya-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: nya-Latn.csv
