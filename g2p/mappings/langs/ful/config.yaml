@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Fulah
+    display_name: Fulah to IPA
+    in_lang: ful
+    out_lang: ful-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ful-Latn.csv

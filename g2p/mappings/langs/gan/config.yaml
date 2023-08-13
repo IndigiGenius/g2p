@@ -6,4 +6,4 @@ mappings:
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: gan-Latn.csv
+    mapping: gan-Latn.cs
