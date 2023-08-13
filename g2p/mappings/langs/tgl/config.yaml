@@ -1,9 +1,17 @@
 mappings:
-  - language_name: Thai
-    display_name: Thai to IPA
-    in_lang: tha-Thai
-    out_lang: tha-ipa
+  - language_name: Tagalog Latin
+    display_name: Tagalog to IPA
+    in_lang: tgl-latn
+    out_lang: tgl-ipa
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: tha-Thai.csv
+    mapping: tgl-Latn.csv
+  - language_name: Tagalog Latin Reduced
+    display_name: Tagalog to IPA
+    in_lang: tgl-latn-red
+    out_lang: tgl-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tgl-Latn-red.csv

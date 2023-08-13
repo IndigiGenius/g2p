@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Tajik Cyrillic
+    display_name: Tajik Cyrillic to IPA
+    in_lang: tgk
+    out_lang: tgk-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tgk-Cyrl.csv
