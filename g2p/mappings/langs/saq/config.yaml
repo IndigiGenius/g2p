@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Sango
+    display_name: Sango to IPA
+    in_lang: saq
+    out_lang: saq-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: saq-Latn.csv
