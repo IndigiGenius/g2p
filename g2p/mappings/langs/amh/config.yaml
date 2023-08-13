@@ -1,0 +1,25 @@
+mappings:
+  - language_name: Amharic
+    display_name: Amharic to IPA
+    in_lang: amh
+    out_lang: amh-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: amh-Ethi.csv
+  - language_name: Amharic
+    display_name: Amharic (reduced) to IPA
+    in_lang: amh-red
+    out_lang: amh-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: amh-Ethi-red.csv
+  - language_name: Amharic
+    display_name: Amharic (more phonetic) to IPA
+    in_lang: amh-pp
+    out_lang: amh-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: amh-Ethi-pp.csv
