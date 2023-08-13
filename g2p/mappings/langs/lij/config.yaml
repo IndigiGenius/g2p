@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Ligurian
+    display_name: Ligurian to IPA
+    in_lang: lij
+    out_lang: lij-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: lij-Latn.csv
