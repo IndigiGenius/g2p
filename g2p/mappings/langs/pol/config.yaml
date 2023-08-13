@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Polish
+    display_name: Polish to IPA
+    in_lang: pol
+    out_lang: pol-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: pol-Latn.csv
