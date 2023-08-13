@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Kurdish, Central
+    display_name: Central Kurdish to IPA
+    in_lang: ckb
+    out_lang: ckb-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ckb-Arab.csv
