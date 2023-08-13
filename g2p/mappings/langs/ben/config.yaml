@@ -1,0 +1,25 @@
+mappings:
+  - language_name: Bengali
+    display_name: Bengali to IPA
+    in_lang: ben
+    out_lang: ben-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ben-Beng.csv
+  - language_name: Bengali
+    display_name: Bengali (reduced) to IPA
+    in_lang: ben-red
+    out_lang: ben-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ben-Beng-red.csv
+  - language_name: Bengali, East
+    display_name: Bengali (East) to IPA
+    in_lang: ben-east
+    out_lang: ben-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ben-Beng-east.csv
