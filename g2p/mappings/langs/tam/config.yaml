@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Tamil
+    display_name: Tamil to IPA
+    in_lang: tam
+    out_lang: tam-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tam-Taml.csv
+  - language_name: Tamil (reduced)
+    display_name: Tamil (reduced) to IPA
+    in_lang: tam-red
+    out_lang: tam-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tam-Taml-red.csv
