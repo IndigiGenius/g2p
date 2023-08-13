@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Rundi
+    display_name: Rundi to IPA
+    in_lang: run
+    out_lang: run-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: run-Latn.csv
