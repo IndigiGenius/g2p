@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Dutch
+    display_name: Dutch to IPA
+    in_lang: nld
+    out_lang: nld-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: nld-Latn.csv
