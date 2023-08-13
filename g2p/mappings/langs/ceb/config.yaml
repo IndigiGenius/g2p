@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Cebuano
+    display_name: Cebuano to IPA
+    in_lang: ceb
+    out_lang: ceb-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ceb-Latn.csv
