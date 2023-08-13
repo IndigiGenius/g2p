@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Lao
+    display_name: Lao to IPA
+    in_lang: lao
+    out_lang: lao-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: lao-Laoo.csv
+  - language_name: Lao 
+    display_name: Lao (prereform) to IPA
+    in_lang: lao-pre
+    out_lang: lao-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: lao-Laoo-prereform.csv
