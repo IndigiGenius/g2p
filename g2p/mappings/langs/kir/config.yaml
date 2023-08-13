@@ -1,0 +1,25 @@
+mappings:
+  - language_name: Kyrgyz
+    display_name: Kyrgyz (Latin) to IPA
+    in_lang: kir-latn
+    out_lang: kir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kir-Latn.csv
+  - language_name: Kyrgyz
+    display_name: Kyrgyz (Cyrillic) to IPA
+    in_lang: kir-cyrl
+    out_lang: kir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kir-Cyrl.csv
+  - language_name: Kyrgyz
+    display_name: Kyrgyz (Perso-Arabic) to IPA
+    in_lang: kir-arab
+    out_lang: kir-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kir-Arab.csv
