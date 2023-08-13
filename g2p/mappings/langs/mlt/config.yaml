@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Maltese
+    display_name: Maltese to IPA
+    in_lang: mlt
+    out_lang: mlt-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: mlt-Latn.csv
