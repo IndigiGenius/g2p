@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Oromo
+    display_name: Oromo to IPA
+    in_lang: orm
+    out_lang: orm-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: orm-Latn.csv
