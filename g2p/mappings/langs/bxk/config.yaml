@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Bukusu
+    display_name: Bukusu to IPA
+    in_lang: bxk
+    out_lang: bxk-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: bxk-Latn.csv
