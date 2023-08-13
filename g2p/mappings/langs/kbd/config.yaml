@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Kabardian
+    display_name: Kabardian to IPA
+    in_lang: kbd
+    out_lang: kbd-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kbd-Cyrl.csv
