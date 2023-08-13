@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Indonesian
+    display_name: Indonesian to IPA
+    in_lang: ind
+    out_lang: ind-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ind-Latn.csv
