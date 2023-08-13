@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Hausa
+    display_name: Hausa to IPA
+    in_lang: hau
+    out_lang: hau-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: hau-Latn.csv
