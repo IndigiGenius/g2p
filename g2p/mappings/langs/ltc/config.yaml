@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Middle Chinese (Baxter and Sagart 2014)
+    display_name: Middle Chinese to IPA
+    in_lang: ltc-bax
+    out_lang: ltc-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ltc-Latn-bax.csv
