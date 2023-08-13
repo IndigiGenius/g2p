@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Portuguese
+    display_name: Portuguese to IPA
+    in_lang: por
+    out_lang: por-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: por-Latn.csv
