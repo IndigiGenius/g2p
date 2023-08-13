@@ -1,0 +1,33 @@
+mappings:
+  - language_name: Japanese
+    display_name: Japanese Hiragana to IPA
+    in_lang: jpn-hrgn
+    out_lang: jpn-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: jpn-Hrgn.csv
+  - language_name: Japanese
+    display_name: Japanese Hiragana (reduced) to IPA
+    in_lang: jpn-hrgn-red
+    out_lang: jpn-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: jpn-Hrgn-red.csv
+  - language_name: Japanese
+    display_name: Japanese Katakana to IPA
+    in_lang: jpn-ktkn
+    out_lang: jpn-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: jpn-Ktkn.csv
+  - language_name: Japanese
+    display_name: Japanese Katakana (reduced) to IPA
+    in_lang: jpn-ktkn-red
+    out_lang: jpn-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: jpn-Ktkn-red.csv
