@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Sinhala
+    display_name: Sinhala to IPA
+    in_lang: sin
+    out_lang: sin-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: sin-Sinh.csv
