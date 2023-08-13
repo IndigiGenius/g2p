@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Jin
+    display_name: Jin to IPA
+    in_lang: cjy
+    out_lang: cjy-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: cjy-Latn.csv
