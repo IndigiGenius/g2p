@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Burmese
+    display_name: Burmese to IPA
+    in_lang: mya
+    out_lang: mya-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: mya-Mymr.csv
