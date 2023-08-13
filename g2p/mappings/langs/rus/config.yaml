@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Russian
+    display_name: Russian to IPA
+    in_lang: rus
+    out_lang: rus-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: rus-Cyrl.csv
