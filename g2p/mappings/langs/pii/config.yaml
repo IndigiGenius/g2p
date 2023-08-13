@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Pini Holopainen 2019
+    display_name: Pini Holopainen 2019 to IPA
+    in_lang: pii-h2019
+    out_lang: pii-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: pii-Latn_Holopainen2019.csv
+  - language_name: Pini Wiktionary
+    display_name: Pini Wiktionary to IPA
+    in_lang: pii-wiki
+    out_lang: pii-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: pii-Latn_Wiktionary.csv
