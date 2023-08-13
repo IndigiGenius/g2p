@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Telugu
+    display_name: Telugu to IPA
+    in_lang: tel
+    out_lang: tel-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: tel-Telu.csv
