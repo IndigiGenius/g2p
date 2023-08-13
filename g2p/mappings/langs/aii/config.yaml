@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Assyrian Neo-Aramaic
+    display_name: Assyrian Neo-Aramaic to IPA
+    in_lang: aii
+    out_lang: aii-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: aii-Syrc.csv
