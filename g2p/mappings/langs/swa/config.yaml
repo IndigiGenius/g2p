@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Swahili
+    display_name: Swahili to IPA
+    in_lang: swa
+    out_lang: swa-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: swa-Latn.csv
+  - language_name: Swahili (reduced)
+    display_name: Swahili (reduced) to IPA
+    in_lang: swa-red
+    out_lang: swa-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: swa-Latn-red.csv
