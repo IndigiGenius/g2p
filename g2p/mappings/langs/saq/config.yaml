@@ -1,6 +1,6 @@
 mappings:
-  - language_name: Sango
-    display_name: Sango to IPA
+  - language_name: Samburu
+    display_name: Samburu to IPA
     in_lang: saq
     out_lang: saq-ipa
     type: mapping
