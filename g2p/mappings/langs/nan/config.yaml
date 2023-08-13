@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Hokkien (pe̍h-oē-jī)
+    display_name: Hokkien (pe̍h-oē-jī) to IPA
+    in_lang: nan
+    out_lang: nan-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: nan-Latn.csv
+  - language_name: Hokkien (Tâi-lô)
+    display_name: Hokkien (Tâi-lô) to IPA
+    in_lang: nan-tl
+    out_lang: nan-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: nan-Latn-tl.csv
