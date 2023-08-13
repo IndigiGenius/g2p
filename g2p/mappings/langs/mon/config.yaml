@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Mongolian (Cyrillic)
+    display_name: Mongolian (Cyrillic) to IPA
+    in_lang: mon
+    out_lang: mon-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: mon-Cyrl-bab.csv
