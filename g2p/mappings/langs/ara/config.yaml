@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Arabic
+    display_name: Arabic (Literary) to IPA
+    in_lang: ara
+    out_lang: ara-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ara-Arab.csv
