@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Mandarin
+    display_name: Mandarin (Pinyin) to IPA
+    in_lang: cmn
+    out_lang: cmn-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: cmn-Latn.csv
