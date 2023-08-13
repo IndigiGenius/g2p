@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Spanish
+    display_name: Spanish to IPA
+    in_lang: spa
+    out_lang: spa-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: spa-Latn.csv
+  - language_name: Spanish (Iberian)
+    display_name: Spanish (Iberian) to IPA
+    in_lang: spa-eu
+    out_lang: spa-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: spa-Latn-eu.csv
