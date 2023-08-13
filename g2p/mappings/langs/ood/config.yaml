@@ -1,0 +1,17 @@
+mappings:
+  - language_name: Tohono O'odham (Hale-Alvarez)
+    display_name: Tohono O'odham (Hale-Alvarez)to IPA
+    in_lang: ood-alv
+    out_lang: ood-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ood-Latn-alv.csv
+  - language_name: Tohono O'odham (Saxton)
+    display_name: Tohono O'odham (Saxton)to IPA
+    in_lang: ood-sax
+    out_lang: ood-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ood-Latn-sax.csv
