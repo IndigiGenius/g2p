@@ -1,0 +1,9 @@
+mappings:
+  - language_name: IPA
+    display_name: IPA to XSampa
+    in_lang: ipa
+    out_lang: ipa-xsampa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ipa-xsampa.csv
