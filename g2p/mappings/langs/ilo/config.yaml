@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Ilocano 
+    display_name: Ilocano to IPA
+    in_lang: ilo
+    out_lang: ilo-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: ilo-Latn.csv
