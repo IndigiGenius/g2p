@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Kinyarwanda
+    display_name: Kinyarwanda to IPA
+    in_lang: kin
+    out_lang: kin-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: xho-Latn.csv
