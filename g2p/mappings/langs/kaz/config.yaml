@@ -1,0 +1,25 @@
+mappings:
+  - language_name: Kazakh
+    display_name: Kazakh (Latin) to IPA
+    in_lang: kaz-latn
+    out_lang: kaz-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kaz-Latn.csv
+  - language_name: Kazakh
+    display_name: Kazakh (Cyrillic-Babel) to IPA
+    in_lang: kaz-cyrl-bab
+    out_lang: kaz-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kaz-cyrl-bab.csv
+  - language_name: Kazakh
+    display_name: Kazakh (Cyrillic) to IPA
+    in_lang: kaz-cyrl
+    out_lang: kaz-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: kaz-Cyrl.csv
