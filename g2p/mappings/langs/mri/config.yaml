@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Māori
+    display_name: Māori to IPA
+    in_lang: mri
+    out_lang: mri-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: mri-Latn.csv
