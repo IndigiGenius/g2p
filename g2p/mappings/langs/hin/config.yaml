@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Hindi
+    display_name: Hindi to IPA
+    in_lang: hin
+    out_lang: hin-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: hin-Deva.csv
