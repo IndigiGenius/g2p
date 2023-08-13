@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Jamaican
+    display_name: Jamaican to IPA
+    in_lang: jam
+    out_lang: jam-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: jam-Latn.csv
