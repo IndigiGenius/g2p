@@ -1,0 +1,9 @@
+mappings:
+  - language_name: Hakka (pha̍k-fa-sṳ)
+    display_name: Hakka (pha̍k-fa-sṳ) to IPA
+    in_lang: hak
+    out_lang: hak-ipa
+    type: mapping
+    authors:
+      - David R. Mortensen
+    mapping: hak-Latn.csv
