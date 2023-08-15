@@ -1,9 +1,9 @@
 mappings:
-  - language_name: Xhosa
-    display_name: Xhosa to IPA
-    in_lang: xho
-    out_lang: xho-ipa
+  - language_name: Lezghian
+    display_name: Lezghian to IPA
+    in_lang: lez
+    out_lang: lez-ipa
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: xho-Latn.csv
+    mapping: lez-Cyrl.csv
