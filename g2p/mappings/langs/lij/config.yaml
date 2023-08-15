@@ -1,9 +1,9 @@
 mappings:
-  - language_name: Lezghian
-    display_name: Lezghian to IPA
-    in_lang: lez
-    out_lang: lez-ipa
+  - language_name: Ligurian
+    display_name: Ligurian to IPA
+    in_lang: lij
+    out_lang: lij-ipa
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: lez-Cyrl.csv
+    mapping: lij-Latn.csv
