@@ -1,9 +1,0 @@
-mappings:
-  - language_name: Samburu
-    display_name: Samburu to IPA
-    in_lang: saq
-    out_lang: saq-ipa
-    type: mapping
-    authors:
-      - David R. Mortensen
-    mapping: saq-Latn.csv
