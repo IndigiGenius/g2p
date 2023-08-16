@@ -1,9 +1,9 @@
 mappings:
   - language_name: Punjabi (Eastern)
     display_name: Punjabi (Eastern) to IPA
-    in_lang: pun
-    out_lang: pun-ipa
+    in_lang: pan
+    out_lang: pan-ipa
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: pun-Guru.csv
+    mapping: pan-Guru.csv
