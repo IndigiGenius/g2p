@@ -19,10 +19,16 @@ this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, "README.md"), encoding="utf8") as f:
     long_description = f.read()
 
-with open(
-    path.join(this_directory, "requirements", "requirements.txt"), encoding="utf8"
-) as f:
-    REQS = f.read().splitlines()
+
+def read_requirements(name):
+    """The requirement lines of requirements/<name>, without comments or blanks."""
+    with open(path.join(this_directory, "requirements", name), encoding="utf8") as f:
+        lines = [line.strip() for line in f]
+    return [line for line in lines if line and not line.startswith("#")]
+
+
+REQS = read_requirements("requirements.txt")
+STUDIO_REQS = read_requirements("requirements.studio.txt")
 
 setup(
     name="g2p",
@@ -39,6 +45,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=REQS,
+    extras_require={"studio": STUDIO_REQS},
     entry_points={"console_scripts": ["g2p = g2p.cli:cli"]},
     zip_safe=False,
     classifiers=[

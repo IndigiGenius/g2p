@@ -3,7 +3,10 @@
 import os
 import re
 import shutil
+import subprocess
+import sys
 import tempfile
+import textwrap
 from unittest import TestCase, main
 
 from g2p.app import APP
@@ -430,6 +433,37 @@ class CliTest(TestCase):
         results_long = self.runner.invoke(convert, "--help")
         self.assertEqual(results_long.exit_code, 0)
         self.assertEqual(results_short.output, results_long.output)
+
+    def test_cli_without_studio_extra(self):
+        """The CLI works when the web stack (the "studio" extra) is not installed."""
+        # A None entry in sys.modules makes importing that module raise ImportError,
+        # which is what an install without the studio extra sees.
+        script = textwrap.dedent(
+            """
+            import sys
+            for name in ("flask", "flask_cors", "flask_restful", "flask_socketio",
+                         "flask_talisman", "werkzeug", "eventlet", "dns",
+                         "engineio", "socketio"):
+                sys.modules[name] = None
+            from click.testing import CliRunner
+            import g2p.cli
+            runner = CliRunner()
+            result = runner.invoke(g2p.cli.cli, ["convert", "hello", "eng", "eng-ipa"])
+            assert result.exit_code == 0, result.output
+            print(result.output.strip())
+            # Only the step after rebuilding the cache needs the studio: skip the
+            # rebuild, which test_update covers.
+            g2p.cli.cache_langs = lambda **kwargs: None
+            result = runner.invoke(g2p.cli.cli, ["update"])
+            assert result.exit_code == 0, result.output
+            assert "studio extra" in result.output, result.output
+            """
+        )
+        result = subprocess.run(
+            [sys.executable, "-c", script], capture_output=True, text=True, check=False
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(result.stdout.strip(), "hʌloʊ")
 
 
 if __name__ == "__main__":

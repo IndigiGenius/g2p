@@ -183,6 +183,8 @@ Once you have the Compiled DB, it is then possible to use the `g2p convert` comm
 
 You can also run the `g2p Studio` which is a web interface for creating custom lookup tables to be used with g2p. To run the `g2p Studio` either visit https://g2p-studio.herokuapp.com/ or run it locally using `python run_studio.py`.
 
+Running the studio locally needs its web stack, which is an optional extra: `pip install -e .[studio]`.
+
 Alternatively, you can run the app from the command line: `g2p run`
 
 ## Maintainers

@@ -7,16 +7,14 @@ import os
 import pprint
 import re
 import sys
+from typing import Any, Dict
 
 import click
 import yaml
-from flask.cli import FlaskGroup
 from networkx import has_path
 
 from g2p import make_g2p, make_tokenizer
 from g2p._version import VERSION
-from g2p.api import update_docs
-from g2p.app import APP
 from g2p.exceptions import InvalidLanguageCode, MappingMissing, NoPath
 from g2p.log import LOGGER
 from g2p.mappings import Mapping
@@ -57,10 +55,22 @@ if "pytest" not in sys.modules:  # pragma: no cover
 
 def create_app():
     """Return the flask app for g2p"""
+    from g2p.app import APP
+
     return APP
 
 
 CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
+
+# The web stack is the optional "studio" extra. With it, the CLI is a FlaskGroup and
+# also offers `g2p run`; without it, every other command still works.
+CLI_GROUP_ATTRS: Dict[str, Any] = dict(context_settings=CONTEXT_SETTINGS)
+try:
+    from flask.cli import FlaskGroup
+except ImportError:
+    pass
+else:
+    CLI_GROUP_ATTRS.update(cls=FlaskGroup, create_app=create_app)
 
 
 def parse_from_or_to_lang_spec(lang_spec):
@@ -128,7 +138,7 @@ def parse_from_or_to_lang_spec(lang_spec):
 
 
 @click.version_option(version=VERSION, prog_name="g2p")
-@click.group(cls=FlaskGroup, create_app=create_app, context_settings=CONTEXT_SETTINGS)
+@click.group(**CLI_GROUP_ATTRS)
 def cli():
     """Management script for G2P"""
 
@@ -669,7 +679,15 @@ def update(in_dir, out_dir):
     if in_dir == LANGS_DIR and out_dir is None:
         # We only update the documentation when updating using the default directories
         reload_db()
-        update_docs()  # updates g2p/static/swagger.json
+        try:
+            from g2p.api import update_docs
+        except ImportError:
+            LOGGER.warning(
+                "Not updating g2p/static/swagger.json: the API documentation needs "
+                "the studio extra (pip install g2p[studio])."
+            )
+        else:
+            update_docs()  # updates g2p/static/swagger.json
         network_to_echart(
             outfile=os.path.join(os.path.dirname(static_file), "languages-network.json")
         )  # updates g2p/status/languages-network.json
@@ -780,4 +798,4 @@ def show_mappings(lang1, lang2, verbose, csv):
             print()
     else:
         for i, m in enumerate(mappings):
-            print(f"{i+1}: {m.kwargs['in_lang']} → {m.kwargs['out_lang']}")
+            print(f"{i + 1}: {m.kwargs['in_lang']} → {m.kwargs['out_lang']}")
