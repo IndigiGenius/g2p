@@ -1,4 +1,6 @@
 # Minimal requirements for all uses of g2p
 -r requirements/requirements.txt
+# The studio's web stack
+-r requirements/requirements.studio.txt
 # Additional requirements for production deployment
 -r requirements/requirements.prod.txt

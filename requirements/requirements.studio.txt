@@ -1,0 +1,22 @@
+# The web stack behind the g2p studio and its API (`g2p run`, run_studio.py,
+# g2p.app, g2p.api). Installed by `pip install g2p[studio]`; the library and
+# the rest of the CLI do not need it.
+dnspython>=2.1.0,<=2.3.0
+eventlet>=0.33.0
+flask-cors>=3.0.9
+flask-talisman>=0.7.0
+flask-restful>=0.3.9
+
+# Python 3.7+ requirements with current packages
+Flask==2.2.5; python_version >= "3.7"
+werkzeug==2.2.3; python_version >= "3.7"
+flask_socketio>=5.0.0; python_version >= "3.7"
+python-engineio>=4.0.0; python_version >= "3.7"
+python-socketio>=5.0.0; python_version >= "3.7"
+
+# Python 3.6 requirements due to newer packages not available 3.6
+Flask>=2.0.0,<=2.1.3; python_version < "3.7"
+werkzeug==2.0.3; python_version < "3.7"
+flask_socketio>=4.3.2; python_version < "3.7"
+python-engineio>=3.14.2; python_version < "3.7"
+python-socketio>=4.6.1; python_version < "3.7"
