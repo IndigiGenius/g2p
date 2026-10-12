@@ -60,6 +60,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .
       - name: Run tests on Windows
+        # panphon opens its data files without an encoding, which is cp1252 here
+        env:
+          PYTHONUTF8: "1"
         run: python run_tests.py dev
       - name: Make sure the CLI outputs utf8 on Windows
         run: |
