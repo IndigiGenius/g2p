@@ -87,7 +87,8 @@ class FallbackTest(TestCase):
             test_ipa.mapping,
             [
                 rule("æ", "ɑ", "", "", "æ"),
-                rule("ɐ", "ɑ", "", "", "ɐ"),
+                # panphon >= 0.21 gives ɐ [-low], which puts it nearer i than ɑ
+                rule("ɐ", "i", "", "", "ɐ"),
                 rule("ɑ̃", "ɑ", "", "", "ɑ̃"),
                 rule("β", "s", "", "", "β"),
                 rule("ɡ", "t", "", "", "ɡ"),

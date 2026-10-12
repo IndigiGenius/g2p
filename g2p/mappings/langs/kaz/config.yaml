@@ -14,7 +14,7 @@ mappings:
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: kaz-cyrl-bab.csv
+    mapping: kaz-Cyrl-bab.csv
   - language_name: Kazakh
     display_name: Kazakh (Cyrillic) to IPA
     in_lang: kaz-cyrl

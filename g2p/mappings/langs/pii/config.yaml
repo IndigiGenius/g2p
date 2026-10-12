@@ -6,7 +6,7 @@ mappings:
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: pii-Latn_Holopainen2019.csv
+    mapping: pii-latn_Holopainen2019.csv
   - language_name: Pini Wiktionary
     display_name: Pini Wiktionary to IPA
     in_lang: pii-wiki
@@ -14,4 +14,4 @@ mappings:
     type: mapping
     authors:
       - David R. Mortensen
-    mapping: pii-Latn_Wiktionary.csv
+    mapping: pii-latn_Wiktionary.csv
